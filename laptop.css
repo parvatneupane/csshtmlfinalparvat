@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background: green;
+    padding: 0;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+nav img{
+    border-radius: 50%;
+}
+
+footer {
+    background-color: lightgray;
+    color:black ;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+nav h1 {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    margin: 1px;
+    margin-left: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 15px 2px 10px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 1px;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover {
+    border-radius: 10px;
+    text-decoration: underline;
+    background-color: black;
+}
+div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    text-align: center;
+    color: darkslategray;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    width: 75%;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: white;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product img {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product h3 {
+    color: darkslategray;
+}
+
+.product p {
+    color: dimgray;
+}
+
+.product h4 {
+    color: darkslategray;
+    margin-top: 20px;
+}
+
+.product ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.product ul li {
+    
+    align-content: center;
+    color: dimgray;
+   
+}
+
+.product a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+ul li {
+    
+    color: dimgray;
+
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.contact-info h3 {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.shead {
+    text-align: center;
+   
+   
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 15px black;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+.info{
+    text-align: center;
+}
+.s1{
+    display: flex;
+}
+.s2{
+    display: flex;
+}
+.s3{
+    display: flex;
+}
+
+
+
+@media (max-width: 768px) {
+    .product {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .product img {
+        max-width: 300px;
+    }
+
+    .contact-info {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .product {
+        padding: 10px;
+    }
+
+    .contact-info {
+        padding: 10px;
+    }
+
+    .product img {
+        max-width: 200px;
+    }
+}
